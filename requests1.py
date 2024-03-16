@@ -1,7 +1,6 @@
+# 크롤링 기본
 import requests
 from bs4 import BeautifulSoup
-
-# 크롤링 기본
 
 # 크롤링하고 싶은 url get해오기
 response = requests.get("https://youth.incheon.go.kr/youthpolicy/youthPolicyInfoList.do?")
